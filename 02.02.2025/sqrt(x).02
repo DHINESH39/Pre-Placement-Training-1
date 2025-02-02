@@ -1,0 +1,10 @@
+class Solution(object):
+    def mySqrt(self, x):
+        import math
+        """
+        :type x: int
+        :rtype: int
+        """
+        return int(floor(math.sqrt(x)))
+
+        
